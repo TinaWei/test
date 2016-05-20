@@ -1,0 +1,35 @@
+{
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "cvscs",
+      "build_source_folder": "gbd",
+      "build_output_subfolder": "gbd",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "op"
+    },
+    {
+      "docset_name": "gdrrrrg",
+      "build_source_folder": "vdsf",
+      "build_output_subfolder": "vdsf",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "op"
+    }
+  ],
+  "skip_source_output_uploading": false
+}
